@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B2074601D07B4B30032F4AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B20745F1D07B4B30032F4AB /* AppDelegate.swift */; };
+		0B2074621D07B4B30032F4AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2074611D07B4B30032F4AB /* ViewController.swift */; };
+		0B2074651D07B4B30032F4AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2074631D07B4B30032F4AB /* Main.storyboard */; };
+		0B2074671D07B4B30032F4AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2074661D07B4B30032F4AB /* Assets.xcassets */; };
+		0B20746A1D07B4B30032F4AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2074681D07B4B30032F4AB /* LaunchScreen.storyboard */; };
+		0B2074751D07B4B30032F4AB /* uCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2074741D07B4B30032F4AB /* uCamTests.swift */; };
+		0B2074801D07B4B30032F4AB /* uCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B20747F1D07B4B30032F4AB /* uCamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B2074711D07B4B30032F4AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B2074541D07B4B30032F4AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B20745B1D07B4B30032F4AB;
+			remoteInfo = uCam;
+		};
+		0B20747C1D07B4B30032F4AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B2074541D07B4B30032F4AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B20745B1D07B4B30032F4AB;
+			remoteInfo = uCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B20745C1D07B4B30032F4AB /* uCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B20745F1D07B4B30032F4AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B2074611D07B4B30032F4AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B2074641D07B4B30032F4AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B2074661D07B4B30032F4AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B2074691D07B4B30032F4AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B20746B1D07B4B30032F4AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2074701D07B4B30032F4AB /* uCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2074741D07B4B30032F4AB /* uCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uCamTests.swift; sourceTree = "<group>"; };
+		0B2074761D07B4B30032F4AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B20747B1D07B4B30032F4AB /* uCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B20747F1D07B4B30032F4AB /* uCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uCamUITests.swift; sourceTree = "<group>"; };
+		0B2074811D07B4B30032F4AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B2074591D07B4B30032F4AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B20746D1D07B4B30032F4AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2074781D07B4B30032F4AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B2074531D07B4B30032F4AB = {
+			isa = PBXGroup;
+			children = (
+				0B20745E1D07B4B30032F4AB /* uCam */,
+				0B2074731D07B4B30032F4AB /* uCamTests */,
+				0B20747E1D07B4B30032F4AB /* uCamUITests */,
+				0B20745D1D07B4B30032F4AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B20745D1D07B4B30032F4AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B20745C1D07B4B30032F4AB /* uCam.app */,
+				0B2074701D07B4B30032F4AB /* uCamTests.xctest */,
+				0B20747B1D07B4B30032F4AB /* uCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B20745E1D07B4B30032F4AB /* uCam */ = {
+			isa = PBXGroup;
+			children = (
+				0B20745F1D07B4B30032F4AB /* AppDelegate.swift */,
+				0B2074611D07B4B30032F4AB /* ViewController.swift */,
+				0B2074631D07B4B30032F4AB /* Main.storyboard */,
+				0B2074661D07B4B30032F4AB /* Assets.xcassets */,
+				0B2074681D07B4B30032F4AB /* LaunchScreen.storyboard */,
+				0B20746B1D07B4B30032F4AB /* Info.plist */,
+			);
+			path = uCam;
+			sourceTree = "<group>";
+		};
+		0B2074731D07B4B30032F4AB /* uCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B2074741D07B4B30032F4AB /* uCamTests.swift */,
+				0B2074761D07B4B30032F4AB /* Info.plist */,
+			);
+			path = uCamTests;
+			sourceTree = "<group>";
+		};
+		0B20747E1D07B4B30032F4AB /* uCamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B20747F1D07B4B30032F4AB /* uCamUITests.swift */,
+				0B2074811D07B4B30032F4AB /* Info.plist */,
+			);
+			path = uCamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B20745B1D07B4B30032F4AB /* uCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B2074841D07B4B30032F4AB /* Build configuration list for PBXNativeTarget "uCam" */;
+			buildPhases = (
+				0B2074581D07B4B30032F4AB /* Sources */,
+				0B2074591D07B4B30032F4AB /* Frameworks */,
+				0B20745A1D07B4B30032F4AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uCam;
+			productName = uCam;
+			productReference = 0B20745C1D07B4B30032F4AB /* uCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B20746F1D07B4B30032F4AB /* uCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B2074871D07B4B30032F4AB /* Build configuration list for PBXNativeTarget "uCamTests" */;
+			buildPhases = (
+				0B20746C1D07B4B30032F4AB /* Sources */,
+				0B20746D1D07B4B30032F4AB /* Frameworks */,
+				0B20746E1D07B4B30032F4AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B2074721D07B4B30032F4AB /* PBXTargetDependency */,
+			);
+			name = uCamTests;
+			productName = uCamTests;
+			productReference = 0B2074701D07B4B30032F4AB /* uCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B20747A1D07B4B30032F4AB /* uCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B20748A1D07B4B30032F4AB /* Build configuration list for PBXNativeTarget "uCamUITests" */;
+			buildPhases = (
+				0B2074771D07B4B30032F4AB /* Sources */,
+				0B2074781D07B4B30032F4AB /* Frameworks */,
+				0B2074791D07B4B30032F4AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B20747D1D07B4B30032F4AB /* PBXTargetDependency */,
+			);
+			name = uCamUITests;
+			productName = uCamUITests;
+			productReference = 0B20747B1D07B4B30032F4AB /* uCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B2074541D07B4B30032F4AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Alex Kazorian";
+				TargetAttributes = {
+					0B20745B1D07B4B30032F4AB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VNHALR87LD;
+					};
+					0B20746F1D07B4B30032F4AB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VNHALR87LD;
+						TestTargetID = 0B20745B1D07B4B30032F4AB;
+					};
+					0B20747A1D07B4B30032F4AB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VNHALR87LD;
+						TestTargetID = 0B20745B1D07B4B30032F4AB;
+					};
+				};
+			};
+			buildConfigurationList = 0B2074571D07B4B30032F4AB /* Build configuration list for PBXProject "uCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B2074531D07B4B30032F4AB;
+			productRefGroup = 0B20745D1D07B4B30032F4AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B20745B1D07B4B30032F4AB /* uCam */,
+				0B20746F1D07B4B30032F4AB /* uCamTests */,
+				0B20747A1D07B4B30032F4AB /* uCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B20745A1D07B4B30032F4AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B20746A1D07B4B30032F4AB /* LaunchScreen.storyboard in Resources */,
+				0B2074671D07B4B30032F4AB /* Assets.xcassets in Resources */,
+				0B2074651D07B4B30032F4AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B20746E1D07B4B30032F4AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2074791D07B4B30032F4AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B2074581D07B4B30032F4AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2074621D07B4B30032F4AB /* ViewController.swift in Sources */,
+				0B2074601D07B4B30032F4AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B20746C1D07B4B30032F4AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2074751D07B4B30032F4AB /* uCamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2074771D07B4B30032F4AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2074801D07B4B30032F4AB /* uCamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B2074721D07B4B30032F4AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B20745B1D07B4B30032F4AB /* uCam */;
+			targetProxy = 0B2074711D07B4B30032F4AB /* PBXContainerItemProxy */;
+		};
+		0B20747D1D07B4B30032F4AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B20745B1D07B4B30032F4AB /* uCam */;
+			targetProxy = 0B20747C1D07B4B30032F4AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B2074631D07B4B30032F4AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B2074641D07B4B30032F4AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B2074681D07B4B30032F4AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B2074691D07B4B30032F4AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B2074821D07B4B30032F4AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B2074831D07B4B30032F4AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B2074851D07B4B30032F4AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = uCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexK.uCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B2074861D07B4B30032F4AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = uCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexK.uCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0B2074881D07B4B30032F4AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = uCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexK.uCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uCam.app/uCam";
+			};
+			name = Debug;
+		};
+		0B2074891D07B4B30032F4AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = uCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexK.uCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uCam.app/uCam";
+			};
+			name = Release;
+		};
+		0B20748B1D07B4B30032F4AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = uCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexK.uCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = uCam;
+			};
+			name = Debug;
+		};
+		0B20748C1D07B4B30032F4AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = uCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexK.uCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = uCam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B2074571D07B4B30032F4AB /* Build configuration list for PBXProject "uCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2074821D07B4B30032F4AB /* Debug */,
+				0B2074831D07B4B30032F4AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B2074841D07B4B30032F4AB /* Build configuration list for PBXNativeTarget "uCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2074851D07B4B30032F4AB /* Debug */,
+				0B2074861D07B4B30032F4AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0B2074871D07B4B30032F4AB /* Build configuration list for PBXNativeTarget "uCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2074881D07B4B30032F4AB /* Debug */,
+				0B2074891D07B4B30032F4AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0B20748A1D07B4B30032F4AB /* Build configuration list for PBXNativeTarget "uCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B20748B1D07B4B30032F4AB /* Debug */,
+				0B20748C1D07B4B30032F4AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B2074541D07B4B30032F4AB /* Project object */;
+}
