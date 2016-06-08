@@ -1,0 +1,32 @@
+PODS:
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - DZNEmptyDataSet (1.8.1)
+  - GPUImage (0.1.7)
+  - MGSwipeTableCell (1.5.5)
+  - PKRevealController (2.0.6)
+  - SnapKit (0.15.0)
+  - TextFieldEffects (1.2.0)
+
+DEPENDENCIES:
+  - ChameleonFramework/Swift
+  - DZNEmptyDataSet
+  - GPUImage
+  - MGSwipeTableCell
+  - PKRevealController
+  - SnapKit (~> 0.15.0)
+  - TextFieldEffects
+
+SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  MGSwipeTableCell: bafeb5f351124544c9364ecbdf24c7b06a37d340
+  PKRevealController: ffb45a16f5a5032ad90a3d16e5cbb0d8e035bd58
+  SnapKit: 4962eed2ee18e48cbd2b2292fffc57efe7235f87
+  TextFieldEffects: bc4fd3bd557321bd61a0762f3f50965477a36f62
+
+PODFILE CHECKSUM: 1845ced51323eda4f7ff3664ebf8a3d969f3e964
+
+COCOAPODS: 1.0.0
