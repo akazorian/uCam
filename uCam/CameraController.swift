@@ -21,6 +21,7 @@ class CameraController: UIViewController, UIImagePickerControllerDelegate, UINav
     @IBOutlet var cameraView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         let button = UIButton(type: UIButtonType.Custom)
         
         button.clipsToBounds = true
@@ -89,29 +90,6 @@ class CameraController: UIViewController, UIImagePickerControllerDelegate, UINav
         } catch { }
     }
     
-    func scaleImage(image: UIImage, maxDimension: CGFloat) -> UIImage {
-        
-        var scaledSize = CGSize(width: maxDimension, height: maxDimension)
-        var scaleFactor: CGFloat
-        
-        if image.size.width > image.size.height {
-            scaleFactor = image.size.height / image.size.width
-            scaledSize.width = maxDimension
-            scaledSize.height = scaledSize.width * scaleFactor
-        } else {
-            scaleFactor = image.size.width / image.size.height
-            scaledSize.height = maxDimension
-            scaledSize.width = scaledSize.height * scaleFactor
-        }
-        
-        UIGraphicsBeginImageContext(scaledSize)
-        image.drawInRect(CGRectMake(0, 0, scaledSize.width, scaledSize.height))
-        let scaledImage = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-        
-        return scaledImage
-    }
-    
     func didPressTakePhoto() {
         
         if let videoConnection = stillImageOutput?.connectionWithMediaType(AVMediaTypeVideo){
@@ -124,9 +102,10 @@ class CameraController: UIViewController, UIImagePickerControllerDelegate, UINav
                     
                     let imageData = AVCaptureStillImageOutput.jpegStillImageNSDataRepresentation(sampleBuffer)
                     let dataProvider  = CGDataProviderCreateWithCFData(imageData)
-                    let cgImageRef = CGImageCreateWithJPEGDataProvider(dataProvider, nil, true, .RenderingIntentPerceptual)
+                    let cgImageRef = CGImageCreateWithJPEGDataProvider(dataProvider, nil, true, .RenderingIntentDefault)
                     
                     self.image = UIImage(CGImage: cgImageRef!, scale: 1.0, orientation: UIImageOrientation.Right)
+                    self.performSegueWithIdentifier("DisplayImage", sender: self)
                 }
                 
                 
@@ -134,6 +113,14 @@ class CameraController: UIViewController, UIImagePickerControllerDelegate, UINav
         }
         
         
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        var DestView : ImageOutput = segue.destinationViewController as! ImageOutput
+        
+        if (segue.identifier == "DisplayImage") {
+            DestView.capture = image
+        }
     }
 
     func cameraButton(sender: UIButton!) {

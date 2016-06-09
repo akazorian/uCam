@@ -25,21 +25,60 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="KyW-Py-yyJ" secondAttribute="trailing" constant="-20" id="MLL-93-1f1"/>
-                            <constraint firstItem="KyW-Py-yyJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Vhx-8v-Yxt"/>
-                            <constraint firstItem="KyW-Py-yyJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="f95-k0-bpF"/>
-                            <constraint firstItem="KyW-Py-yyJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kMV-cE-xZX"/>
+                            <constraint firstItem="KyW-Py-yyJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="LrB-2l-5Gd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KyW-Py-yyJ" secondAttribute="trailing" constant="-20" id="Ql8-bX-Hf6"/>
+                            <constraint firstItem="KyW-Py-yyJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tsw-eC-Pq2"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KyW-Py-yyJ" secondAttribute="bottom" id="cpC-qM-71q"/>
+                            <constraint firstItem="KyW-Py-yyJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="gqQ-Kk-Z13"/>
+                            <constraint firstItem="KyW-Py-yyJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="rWH-LJ-cP3"/>
                         </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
                         <outlet property="cameraView" destination="KyW-Py-yyJ" id="w2j-kV-6jF"/>
+                        <segue destination="1VD-RP-qV0" kind="show" identifier="DisplayImage" id="P5k-2y-km2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="335" y="399"/>
+        </scene>
+        <!--Image Output-->
+        <scene sceneID="Vaq-J8-TnV">
+            <objects>
+                <viewController id="1VD-RP-qV0" customClass="ImageOutput" customModule="uCam" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LYQ-cM-jsC"/>
+                        <viewControllerLayoutGuide type="bottom" id="SAH-AI-xnw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aeq-UX-nth">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="omb-af-2cd">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="omb-af-2cd" secondAttribute="trailing" id="4He-Lq-UAP"/>
+                            <constraint firstItem="omb-af-2cd" firstAttribute="centerX" secondItem="aeq-UX-nth" secondAttribute="centerX" id="JAD-fF-pgr"/>
+                            <constraint firstItem="omb-af-2cd" firstAttribute="centerY" secondItem="aeq-UX-nth" secondAttribute="centerY" id="LJt-Xr-lUm"/>
+                            <constraint firstItem="omb-af-2cd" firstAttribute="top" secondItem="LYQ-cM-jsC" secondAttribute="bottom" id="TSl-UD-W1o"/>
+                            <constraint firstItem="omb-af-2cd" firstAttribute="leading" secondItem="aeq-UX-nth" secondAttribute="leading" id="aHo-A8-gZW"/>
+                            <constraint firstItem="omb-af-2cd" firstAttribute="bottom" secondItem="SAH-AI-xnw" secondAttribute="top" id="fN8-sz-TTt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="omb-af-2cd" id="rKP-hE-dMV"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="ToCamera" modalTransitionStyle="crossDissolve" id="Bvu-Rf-34S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yy1-T0-ivB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1035" y="399"/>
         </scene>
     </scenes>
 </document>
