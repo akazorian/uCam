@@ -14,8 +14,10 @@
 		0B20746A1D07B4B30032F4AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2074681D07B4B30032F4AB /* LaunchScreen.storyboard */; };
 		0B2074751D07B4B30032F4AB /* uCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2074741D07B4B30032F4AB /* uCamTests.swift */; };
 		0B2074801D07B4B30032F4AB /* uCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B20747F1D07B4B30032F4AB /* uCamUITests.swift */; };
+		0B38FDD71D0E8F7900C6D1F0 /* Material.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B38FDD61D0E8F7900C6D1F0 /* Material.framework */; };
+		0B38FDD81D0E8F7900C6D1F0 /* Material.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0B38FDD61D0E8F7900C6D1F0 /* Material.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0B38FDDD1D1004C000C6D1F0 /* FrontCameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B38FDDC1D1004C000C6D1F0 /* FrontCameraController.swift */; };
 		0B96FAD31D07CA8B006CAEAF /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B96FAD11D07C67A006CAEAF /* SnapKit.framework */; };
-		0BBF823D1D0907E900445951 /* ImageOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF823C1D0907E900445951 /* ImageOutput.swift */; };
 		30627E6B93B62E067B3FC16B /* Pods_uCamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2FD3BA3D50C5086530A689 /* Pods_uCamUITests.framework */; };
 		EE508D161F5EA3E0D4CC4786 /* Pods_uCamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D111A4E5A4A364064A7E0F86 /* Pods_uCamTests.framework */; };
 		F723F8C4B6C1EE39327F31AD /* Pods_uCam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C95E2010BD5F75849EE986 /* Pods_uCam.framework */; };
@@ -38,6 +40,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0B38FDD91D0E8F7900C6D1F0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0B38FDD81D0E8F7900C6D1F0 /* Material.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0834EDA2BB93DC73F37D3E27 /* Pods-uCamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uCamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-uCamTests/Pods-uCamTests.release.xcconfig"; sourceTree = "<group>"; };
 		0B20745C1D07B4B30032F4AB /* uCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,8 +69,9 @@
 		0B20747B1D07B4B30032F4AB /* uCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B20747F1D07B4B30032F4AB /* uCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uCamUITests.swift; sourceTree = "<group>"; };
 		0B2074811D07B4B30032F4AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B38FDD61D0E8F7900C6D1F0 /* Material.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Material.framework; path = "/Users/Alex_Kazorian/Library/Developer/Xcode/DerivedData/uCam-hkrlmjmqdnqkokemqhwtpjftbqtn/Build/Products/Debug-iphonesimulator/Material/Material.framework"; sourceTree = "<absolute>"; };
+		0B38FDDC1D1004C000C6D1F0 /* FrontCameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontCameraController.swift; sourceTree = "<group>"; };
 		0B96FAD11D07C67A006CAEAF /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = "../../Library/Developer/Xcode/DerivedData/uCam-hkrlmjmqdnqkokemqhwtpjftbqtn/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework"; sourceTree = "<group>"; };
-		0BBF823C1D0907E900445951 /* ImageOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageOutput.swift; sourceTree = "<group>"; };
 		1C88C4D439D4BA9CEA8D0FDB /* Pods-uCamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uCamTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-uCamTests/Pods-uCamTests.debug.xcconfig"; sourceTree = "<group>"; };
 		290375E02E565B62909B6B8C /* Pods-uCam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uCam.release.xcconfig"; path = "Pods/Target Support Files/Pods-uCam/Pods-uCam.release.xcconfig"; sourceTree = "<group>"; };
 		2B2FD3BA3D50C5086530A689 /* Pods_uCamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uCamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +89,7 @@
 			files = (
 				0B96FAD31D07CA8B006CAEAF /* SnapKit.framework in Frameworks */,
 				F723F8C4B6C1EE39327F31AD /* Pods_uCam.framework in Frameworks */,
+				0B38FDD71D0E8F7900C6D1F0 /* Material.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +115,7 @@
 		0B2074531D07B4B30032F4AB = {
 			isa = PBXGroup;
 			children = (
+				0B38FDD61D0E8F7900C6D1F0 /* Material.framework */,
 				0B20745E1D07B4B30032F4AB /* uCam */,
 				0B2074731D07B4B30032F4AB /* uCamTests */,
 				0B20747E1D07B4B30032F4AB /* uCamUITests */,
@@ -121,7 +140,7 @@
 			children = (
 				0B20745F1D07B4B30032F4AB /* AppDelegate.swift */,
 				0B2074611D07B4B30032F4AB /* CameraController.swift */,
-				0BBF823C1D0907E900445951 /* ImageOutput.swift */,
+				0B38FDDC1D1004C000C6D1F0 /* FrontCameraController.swift */,
 				0B2074631D07B4B30032F4AB /* Main.storyboard */,
 				0B2074661D07B4B30032F4AB /* Assets.xcassets */,
 				0B2074681D07B4B30032F4AB /* LaunchScreen.storyboard */,
@@ -179,12 +198,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B2074841D07B4B30032F4AB /* Build configuration list for PBXNativeTarget "uCam" */;
 			buildPhases = (
-				F262B538C387FFE985C91E1D /* 📦 Check Pods Manifest.lock */,
+				F262B538C387FFE985C91E1D /* [CP] Check Pods Manifest.lock */,
 				0B2074581D07B4B30032F4AB /* Sources */,
 				0B2074591D07B4B30032F4AB /* Frameworks */,
 				0B20745A1D07B4B30032F4AB /* Resources */,
-				27AB3945CA1391985B7FBF92 /* 📦 Embed Pods Frameworks */,
-				6DBCC1EA758251002FDD189F /* 📦 Copy Pods Resources */,
+				27AB3945CA1391985B7FBF92 /* [CP] Embed Pods Frameworks */,
+				6DBCC1EA758251002FDD189F /* [CP] Copy Pods Resources */,
+				0B38FDD91D0E8F7900C6D1F0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,12 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B2074871D07B4B30032F4AB /* Build configuration list for PBXNativeTarget "uCamTests" */;
 			buildPhases = (
-				AAD80060AACEB75C3F3D1FCC /* 📦 Check Pods Manifest.lock */,
+				AAD80060AACEB75C3F3D1FCC /* [CP] Check Pods Manifest.lock */,
 				0B20746C1D07B4B30032F4AB /* Sources */,
 				0B20746D1D07B4B30032F4AB /* Frameworks */,
 				0B20746E1D07B4B30032F4AB /* Resources */,
-				9C4C4776FF6BD42B12A0579C /* 📦 Embed Pods Frameworks */,
-				7489EA3FCCC7BA576FEA6D67 /* 📦 Copy Pods Resources */,
+				9C4C4776FF6BD42B12A0579C /* [CP] Embed Pods Frameworks */,
+				7489EA3FCCC7BA576FEA6D67 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,11 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B20748A1D07B4B30032F4AB /* Build configuration list for PBXNativeTarget "uCamUITests" */;
 			buildPhases = (
-				F82BA6EFEA8EFDD64563D2DA /* 📦 Check Pods Manifest.lock */,
+				F82BA6EFEA8EFDD64563D2DA /* [CP] Check Pods Manifest.lock */,
 				0B2074771D07B4B30032F4AB /* Sources */,
 				0B2074781D07B4B30032F4AB /* Frameworks */,
 				0B2074791D07B4B30032F4AB /* Resources */,
-				844826823EF824ED395A8657 /* 📦 Copy Pods Resources */,
+				844826823EF824ED395A8657 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -310,14 +330,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		27AB3945CA1391985B7FBF92 /* 📦 Embed Pods Frameworks */ = {
+		27AB3945CA1391985B7FBF92 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,14 +345,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-uCam/Pods-uCam-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6DBCC1EA758251002FDD189F /* 📦 Copy Pods Resources */ = {
+		6DBCC1EA758251002FDD189F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,14 +360,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-uCam/Pods-uCam-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7489EA3FCCC7BA576FEA6D67 /* 📦 Copy Pods Resources */ = {
+		7489EA3FCCC7BA576FEA6D67 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,14 +375,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-uCamTests/Pods-uCamTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		844826823EF824ED395A8657 /* 📦 Copy Pods Resources */ = {
+		844826823EF824ED395A8657 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,14 +390,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-uCamUITests/Pods-uCamUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9C4C4776FF6BD42B12A0579C /* 📦 Embed Pods Frameworks */ = {
+		9C4C4776FF6BD42B12A0579C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,14 +405,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-uCamTests/Pods-uCamTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AAD80060AACEB75C3F3D1FCC /* 📦 Check Pods Manifest.lock */ = {
+		AAD80060AACEB75C3F3D1FCC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,14 +420,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		F262B538C387FFE985C91E1D /* 📦 Check Pods Manifest.lock */ = {
+		F262B538C387FFE985C91E1D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,14 +435,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		F82BA6EFEA8EFDD64563D2DA /* 📦 Check Pods Manifest.lock */ = {
+		F82BA6EFEA8EFDD64563D2DA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,7 +457,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BBF823D1D0907E900445951 /* ImageOutput.swift in Sources */,
+				0B38FDDD1D1004C000C6D1F0 /* FrontCameraController.swift in Sources */,
 				0B2074621D07B4B30032F4AB /* CameraController.swift in Sources */,
 				0B2074601D07B4B30032F4AB /* AppDelegate.swift in Sources */,
 			);
@@ -584,10 +604,13 @@
 			baseConfigurationReference = 3E81BBD398A22C5721652112 /* Pods-uCam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = uCam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AlexK.uCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -597,10 +620,13 @@
 			baseConfigurationReference = 290375E02E565B62909B6B8C /* Pods-uCam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = uCam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AlexK.uCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -3,8 +3,6 @@
 
 source 'https://github.com/CocoaPods/Specs.git'
 
-workspace 'uCam'
-
 target 'uCam' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
@@ -17,6 +15,7 @@ target 'uCam' do
   pod 'PKRevealController'
   pod 'MGSwipeTableCell'
   pod 'SnapKit', '~> 0.15.0'
+  pod 'Material', '~> 1.0'
 
   target 'uCamTests' do
     inherit! :search_paths
